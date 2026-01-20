@@ -174,7 +174,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_BASE = "https://notewhispher-backend-1.onrender.com";
+const API_BASE = "https://voicetotext-backend-r4e2.onrender.com/";
 
 export default function DoctorDashboard() {
   const [patients, setPatients] = useState([]);

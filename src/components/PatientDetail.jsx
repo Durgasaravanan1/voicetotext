@@ -143,7 +143,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
-const API_BASE = "https://notewhispher-backend-1.onrender.com";
+const API_BASE = "https://voicetotext-backend-r4e2.onrender.com/";
 
 export default function PatientDetail() {
   const { id } = useParams();
